@@ -1,0 +1,52 @@
+.ysm-fpl div, .ysm-fpl dl, .ysm-fpl dt, .ysm-fpl dd, .ysm-fpl ul, .ysm-fpl ol, .ysm-fpl li, .ysm-fpl h1, .ysm-fpl h2, .ysm-fpl h3, .ysm-fpl h4, .ysm-fpl h5, .ysm-fpl h6, .ysm-fpl pre, .ysm-fpl p, .ysm-fpl blockquote {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+.ysm-fpl {
+	background-color: #fafaff;
+	border: 1px #e2e2e6 solid;
+	max-width: 635px;
+	height: 98px;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, STHeiti, 'Microsoft JhengHei', sans-serif;
+}
+.ysm-fpl ul, .ysm-fpl li {
+	margin: 0;
+	padding: 0;
+}
+.ysm-fpl li {
+	width: 25%;
+	overflow: hidden;
+	display: inline-block;
+	zoom: 1;
+	box-sizing: border-box;
+	border: 0;
+}
+.ysm-fpl li:not(:last-child) {
+	border-right: 1px #e2e2e6 solid;
+}
+.ysm-fpl li a {
+	color: #324fe1;
+	text-decoration: none;
+	display: block;
+	border: 0;
+}
+.ysm-fpl li a:hover {
+	text-decoration: underline;
+}
+.ysm-fpl img {
+	width: 160px;
+	height: 80px;
+	border: 0;
+}
+.ysm-fpl span {
+	display: block;
+	text-align: center;
+	line-height: 1;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
